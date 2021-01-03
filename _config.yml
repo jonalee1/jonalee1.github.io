@@ -22,6 +22,12 @@ production_url : https://jonalee1.github.io/
 # Tell Github to use the kramdown markdown interpreter
 # (see https://help.github.com/articles/migrating-your-pages-site-from-maruku)
 markdown: kramdown
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-include-cache
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
